@@ -1,0 +1,15 @@
+[package]
+name = "ifacialmocap"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Cappy Ishihara <cappy@cappuchino.xyz>"]
+publish = true
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.6.0"
+serde = { version = "1.0.143", features = ["derive"] }
+tokio = { version = "1.20.1", features = ["macros", "rt-multi-thread"] }
