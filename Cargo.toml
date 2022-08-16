@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 license = "MIT"
 authors = ["Cappy Ishihara <cappy@cappuchino.xyz>"]
+description = "An iFacialMocap data protocol parser"
 publish = true
 
 
